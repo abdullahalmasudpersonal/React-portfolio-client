@@ -1,0 +1,14 @@
+.about-bg{
+    color: white;
+    background: rgba(0, 34, 85, 0.932);
+}
+.about-about-info{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+ @media screen and (min-width:1120px) {
+    .about-about-info{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+} 

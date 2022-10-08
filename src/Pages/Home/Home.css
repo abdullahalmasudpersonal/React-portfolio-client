@@ -1,0 +1,26 @@
+
+
+.home-bg {
+   background: rgba(68, 28, 156, 0.548) !important;
+   height: 100vh;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+/* -------------header style start------------- */
+.header-bg{
+   background: rgba(39, 39, 39, 0.74);
+   box-shadow: rgba(114, 114, 167, 0.582) 0px 1px 0px;
+}
+.navber-name{
+   font-size: x-large;
+   color: white;
+   font-weight: bold;
+   font-family: 'Playfair Display', serif;
+}
+.navber-name:hover{
+   color: white;
+}
+/* -------------header style end------------- */
