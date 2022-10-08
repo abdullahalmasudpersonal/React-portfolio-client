@@ -1,26 +1,119 @@
-
-
 .home-bg {
-   background: rgba(68, 28, 156, 0.548) !important;
+   background: rgba(0, 0, 0, 0.637) !important;
+   /* background-image: url('https://abdullahalmasud.netlify.app/assets/img/profile-img.jpg'); */
    height: 100vh;
    width: 100%;
+   z-index: 1;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
+   display: flex;
+   align-items: center;
+}
+
+.home-my-name {
+   font-family: Lucida Bright;
+   color: rgba(0, 64, 184, 0.452);
+   -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.home-my-title {
+   font-family: Lucida Bright;
+   color: rgba(0, 43, 184, 0.623);
+   -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+
+/* body {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background: #000;
+} */
+
+.glow-on-hover {
+   width: 220px;
+   height: 50px;
+   border: none;
+   outline: none;
+   color: rgb(0, 34, 109);
+   -webkit-text-stroke: 1px rgb(255, 255, 255);
+   background: rgb(3, 3, 3);
+   cursor: pointer;
+   position: relative;
+   z-index: 0;
+   font-size: 18px;
+   letter-spacing: 1px;
+   border-radius: 10px;
+}
+
+.glow-on-hover:before {
+   content: '';
+   background: linear-gradient(45deg, #ff9b9b, #ffc28f, #fffd99, #bcffa3, #ffda95, #9bacff, #c38cff, #ff96e8, #ff9393);
+   position: absolute;
+   top: -2px;
+   left:-2px;
+   background-size: 400%;
+   z-index: -1;
+   filter: blur(5px);
+   width: calc(100% + 4px);
+   height: calc(100% + 4px);
+   animation: glowing 20s linear infinite;
+   opacity: 0;
+   transition: opacity .3s ease-in-out;
+   border-radius: 10px;
+}
+
+.glow-on-hover:active {
+   color: #000
+}
+
+.glow-on-hover:active:after {
+   background: transparent;
+}
+
+.glow-on-hover:before {
+   opacity: 1;
+}
+
+.glow-on-hover:after {
+   z-index: -1;
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: rgba(49, 58, 99, 0.836);
+   left: 0;
+   top: 0;
+   border-radius: 10px;
+}
+
+@keyframes glowing {
+   0% { background-position: 0 0; }
+   50% { background-position: 400% 0; }
+   100% { background-position: 0 0; }
 }
 
 /* -------------header style start------------- */
-.header-bg{
+.header-bg {
    background: rgba(39, 39, 39, 0.74);
    box-shadow: rgba(114, 114, 167, 0.582) 0px 1px 0px;
 }
-.navber-name{
+
+.navber-name {
    font-size: x-large;
    color: white;
    font-weight: bold;
    font-family: 'Playfair Display', serif;
 }
-.navber-name:hover{
+
+.navber-name:hover {
    color: white;
 }
+
 /* -------------header style end------------- */

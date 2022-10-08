@@ -9,9 +9,16 @@ import Project from '../Project/Project';
 import ConnectUs from '../ConnectUs/ConnectUs';
 import Services from '../Services/Services';
 import Blogs from '../Blogs/Blogs';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 
 const Home = () => {
+  const [text] = useTypewriter({
+    words: ['Developer', 'React Developer', 'Font End Developer','Back End Developer', 'Full Stack Developer'],
+    loop: {},
+    typeSpeed: 120,
+    deleteSpeed: 80,
+  });
 
   return (
     <div>
@@ -26,15 +33,27 @@ const Home = () => {
           transform: 'translate(-50%, -50%)',
           zIndex: '-1',
         }}>
-          <source src={bgVideo22} type='video/mp4' />
+          <source src={bgVideo} type='video/mp4' />
         </video>
+
+        <div className='container'>
+          <h4 className=' display-3 fw-bold home-my-name '>Abdullah al masud</h4>
+          <h3 className='home-my-title'>
+            I'm {' '}
+            <span style={{ fontWeight: 'bold' }}>
+              {text}
+            </span>
+            <Cursor style={{ color: 'white' }} />
+          </h3>
+          <button class="glow-on-hover fw-bold mt-2" type="button">DOWNLOAD RESUME</button>
+        </div>
       </div>
       <About />
-      <Resume/>
-      <Project/>
-      <Services/>
-      <Blogs/>
-      <ConnectUs/>
+      <Resume />
+      <Project />
+      <Services />
+      <Blogs />
+      <ConnectUs />
     </div>
 
   );
