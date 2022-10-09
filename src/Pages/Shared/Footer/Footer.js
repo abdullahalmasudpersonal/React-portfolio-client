@@ -9,7 +9,7 @@ const Footer = () => {
 
                     <a className="btn btn-outline-light btn-floating m-1" role="button"
                     ><i className="fab fa-linkedin-in"></i
-                    ></a>
+                    > </a>
 
                     <a className="btn btn-outline-light btn-floating m-1" role="button"
                     ><i className="fab fa-github"></i

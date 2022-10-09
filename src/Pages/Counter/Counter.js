@@ -2,7 +2,7 @@ import React from 'react';
 import './Counter.css';
 import CountUp from 'react-countup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAward, faCode, faFileAlt, faFileCircleCheck, faGear } from '@fortawesome/free-solid-svg-icons';
+import { faAward, faCode, faFileAlt, faGear } from '@fortawesome/free-solid-svg-icons';
 
 const Counter = () => {
     return (

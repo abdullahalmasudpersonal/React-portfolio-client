@@ -4,3 +4,16 @@
     background: rgba(0, 34, 85, 0.932);
     min-height: 350px;
 }
+
+.project-project-dev{
+    background: rgba(5, 43, 100, 0.904);
+    color: white;
+}
+.project-live-btn{
+    background: rgba(59, 75, 150, 0.795);
+    border:none;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 15px;
+    margin-left: 8px;
+}

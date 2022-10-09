@@ -5,7 +5,7 @@ const Skills = () => {
     return (
         <div className='counter-bg'>
             <div className='container pt-3'>
-                <h3 className='text-center pt-5 mb-0 numbers-numbers-headline'>SKILLS</h3>
+                <h3 className='text-center pt-5 mb-0 numbers-numbers-headline'>CORE SKILLS</h3>
 
                 <section className="progress-section">
                     <div className="container">
