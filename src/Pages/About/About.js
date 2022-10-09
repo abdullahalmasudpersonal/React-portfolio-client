@@ -13,23 +13,23 @@ const About = () => {
                 <p className='about-about-info pt-2 m-0'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
 
-                <div class="row">
-                    <div class="col-sm-4 mt-3">
-                        <div class="">
-                            <div class="">
+                <div className="row">
+                    <div className="col-sm-4 mt-3">
+                        <div className="">
+                            <div className="">
                                 <img className='img-fluid rounded mx-auto' src='https://abdullahalmasud.netlify.app/assets/img/profile-img.jpg' alt='Abullah al masud' />
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-8 mt-3">
-                        <div class="">
-                            <div class="">
+                    <div className="col-sm-8 mt-3">
+                        <div className="">
+                            <div className="">
                                 <h4>Full Stack Developer & Web Desiginer</h4>
                                 <p className='pt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="">
-                                            <div class="">
+                                <div className="row">
+                                    <div className="col-sm-6">
+                                        <div className="">
+                                            <div className="">
                                                 <ul className='ps-0' style={{ listStyleType: 'none' }}>
                                                     <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &nbsp; <strong>Birthday:</strong> <span>31 July 2000</span></li>
                                                     <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &#160; <strong>Website:</strong> <span><Link className='text-decoration-none text-white'
@@ -41,9 +41,9 @@ const About = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="">
-                                            <div class="">
+                                    <div className="col-sm-6">
+                                        <div className="">
+                                            <div className="">
                                                 <ul className='ps-0' style={{ listStyleType: 'none' }}>
                                                     <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &nbsp; <strong>Age:</strong> <span>23 Years</span></li>
                                                     <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &#160; <strong>Degree:</strong> <span>Honors (Runnig)</span></li>

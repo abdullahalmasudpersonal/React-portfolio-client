@@ -10,6 +10,8 @@ import ConnectUs from '../ConnectUs/ConnectUs';
 import Services from '../Services/Services';
 import Blogs from '../Blogs/Blogs';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import Counter from '../Counter/Counter';
+import Skills from '../Skills/Skills';
 
 
 const Home = () => {
@@ -48,37 +50,39 @@ const Home = () => {
             <Cursor style={{ color: 'white' }} />
           </h3>
 
-          <section class="mt-3">
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-            ><i class="fab fa-linkedin-in"></i
+          <section className="mt-3">
+            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i className="fab fa-linkedin-in"></i
             ></a>
 
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-            ><i class="fab fa-github"></i
+            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i className="fab fa-github"></i
             ></a>
 
-            <a class="btn btn-outline-light btn-floating m-1 facebook-padding" href="#!" role="button"
-            ><i class="fab fa-facebook-f"></i
+            <a className="btn btn-outline-light btn-floating m-1 facebook-padding" href="#!" role="button"
+            ><i className="fab fa-facebook-f"></i
             ></a>
 
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-            ><i class="fab fa-twitter"></i
+            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i className="fab fa-twitter"></i
             ></a>
 
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-            ><i class="fab fa-dribbble"></i
+            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i className="fab fa-dribbble"></i
             ></a>
 
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-            ><i class="fab fa-stack-overflow"></i
+            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i className="fab fa-stack-overflow"></i
             ></a>
           </section>
           
-          <button class="glow-on-hover fw-bold mt-4" type="button">DOWNLOAD RESUME</button>
+          <button className="glow-on-hover fw-bold mt-4" type="button">DOWNLOAD RESUME</button>
 
         </div>
       </div>
       <About />
+      <Counter/>
+      <Skills/>
       <Resume />
       <Project />
       <Services />
