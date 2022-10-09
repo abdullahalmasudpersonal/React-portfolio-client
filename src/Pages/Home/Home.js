@@ -14,7 +14,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Home = () => {
   const [text] = useTypewriter({
-    words: ['Developer', 'React Developer', 'Font End Developer','Back End Developer', 'Full Stack Developer'],
+    words: ['Developer', 'React Developer', 'Font End Developer', 'Back End Developer', 'Full Stack Developer'],
     loop: {},
     typeSpeed: 120,
     deleteSpeed: 80,
@@ -37,7 +37,9 @@ const Home = () => {
         </video>
 
         <div className='container'>
+
           <h4 className=' display-3 fw-bold home-my-name '>Abdullah al masud</h4>
+
           <h3 className='home-my-title'>
             I'm {' '}
             <span style={{ fontWeight: 'bold' }}>
@@ -45,7 +47,35 @@ const Home = () => {
             </span>
             <Cursor style={{ color: 'white' }} />
           </h3>
-          <button class="glow-on-hover fw-bold mt-2" type="button">DOWNLOAD RESUME</button>
+
+          <section class="mt-3">
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-github"></i
+            ></a>
+
+            <a class="btn btn-outline-light btn-floating m-1 facebook-padding" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+            ></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-dribbble"></i
+            ></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-stack-overflow"></i
+            ></a>
+          </section>
+          
+          <button class="glow-on-hover fw-bold mt-4" type="button">DOWNLOAD RESUME</button>
+
         </div>
       </div>
       <About />
