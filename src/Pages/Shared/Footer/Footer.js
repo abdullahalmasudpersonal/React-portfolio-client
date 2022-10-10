@@ -7,35 +7,34 @@ const Footer = () => {
             <div className="container p-4 pb-0">
                 <section className="mb-4">
 
-                    <a className="btn btn-outline-light btn-floating m-1" role="button"
-                    ><i className="fab fa-linkedin-in"></i
-                    > </a>
+                    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i className="fab fa-linkedin-in"></i></a>
 
-                    <a className="btn btn-outline-light btn-floating m-1" role="button"
+                    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                     ><i className="fab fa-github"></i
                     ></a>
 
-                    <a className="btn btn-outline-light btn-floating m-1 facebook-padding" role="button"
+                    <a className="btn btn-outline-light btn-floating m-1 facebook-padding" href="#!" role="button"
                     ><i className="fab fa-facebook-f"></i
                     ></a>
 
-                    <a className="btn btn-outline-light btn-floating m-1" role="button"
+                    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                     ><i className="fab fa-twitter"></i
                     ></a>
 
-                    <a className="btn btn-outline-light btn-floating m-1" role="button"
+                    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                     ><i className="fab fa-instagram"></i
                     ></a>
 
-                    <a className="btn btn-outline-light btn-floating m-1" role="button"
+                    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                     ><i className="fab fa-dribbble"></i
                     ></a>
 
-                    <a className="btn btn-outline-light btn-floating m-1" role="button"
+                    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                     ><i className="fab fa-pinterest"></i
                     ></a>
 
-                    <a className="btn btn-outline-light btn-floating m-1" role="button"
+                    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                     ><i className="fab fa-stack-overflow"></i
                     ></a>
 
