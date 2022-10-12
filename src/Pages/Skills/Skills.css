@@ -1,4 +1,93 @@
-.progress-section{text-align: center; padding: 80px 0px; background: #30303000;}
+
+.skills-icon{
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px 10px;
+
+}
+.skills-skills-img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(2, 11, 39, 0);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 4px;
+}
+.skills-skills-img img{
+   width: 120px;
+   height: 120px;
+}
+@media screen and (min-width:1200px) {
+   .skills-icon{
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+   }
+}
+@media screen and (max-width:1199px) {
+   .skills-icon{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+   }
+}
+@media screen and (max-width:991px) {
+   .skills-icon{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+   }
+}
+@media screen and (max-width:767px) {
+   .skills-icon{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
+@media screen and (max-width:575px) {
+   .skills-icon{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+}
+@media screen and (max-width:365px) {
+   .skills-icon{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+}
+
+/* -----------skills icon-------- */
+
+/* -----------skills icon-------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .progress-section{text-align: center; padding: 80px 0px; background: #30303000;}
 .progress-section h1{ margin-bottom:70px; color:#fff;}
 
 .progress-bars{ margin: auto; background: #fff; width: 120px; height: 120px; transform: rotate(45deg); position: relative;}
@@ -24,3 +113,4 @@
 .progress-bars-seven h2 { line-height: 120px; text-align: center; transform: rotate(-45deg);}
 .progress-bars-seven:before{position: absolute; content: ""; border: solid 5px #595959; border-width: 5px 0px 0px 5px; width: 70px; height: 70px; top: -9px; left: -9px; bottom: -9px; right: -9px; z-index: 10;}
 .progress-bars-seven:after{position: absolute; content: ""; border: solid 5px #2bb0ef; border-width: 5px 5px 5px 5px; width: 140px; height: 140px; top: -9px; left: -9px; bottom: -9px; right: -9px;}
+ */

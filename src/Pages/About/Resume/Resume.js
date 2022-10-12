@@ -9,6 +9,7 @@ const Resume = () => {
 
                 <div class="row mt-5">
                     <div class="col-sm-6 mt-4">
+
                         <div class="">
                             <h3 class="mb-4">Summary</h3>
                             <div className='resume-item'>
@@ -51,10 +52,27 @@ const Resume = () => {
 
                     <div class="col-sm-6 mt-4">
                         <div class="">
-                            <div class="">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <h3 class="mb-4">Professional Training</h3>
+
+                            <div className='resume-item'>
+                                <h5 className='text-uppercase'>Complete Web Development Course with Jhankar Mahbub</h5>
+                                <h5 className='my-3'>Jan 2022 - Jun 2022</h5>
+                                <p><em>Programming Hero, Level-4, 34, Awal Centre, Banani, Dhaka</em> </p>
+                                <p>To be an expect employee and intend to work in a challenging and competitive
+                                    Environment in an organizational position entrusted with higher responsibility and
+                                    strategies decision making authority, motivated self-driven creative.</p>
                             </div>
+
+                            <div className='resume-item'>
+                                <h5 className='text-uppercase'>Certificate in National Skill Standard Basic Course Examination</h5>
+                                <h5 className='my-3'>Jul 2015 - Dec 2015</h5>
+                                <p><em>Shafique Computer Training Center, Pirojpur</em></p>
+                                <p><em>Bangladesh Technical Education Board – 2015</em></p>
+                                <p><em>To be an expect employee and intend to work in a challenging and competitive
+                                    Environment in an organizational position entrusted with higher responsibility and
+                                    strategies decision making authority, motivated self-driven creative.</em></p>
+                            </div>
+
                         </div>
                     </div>
                 </div>

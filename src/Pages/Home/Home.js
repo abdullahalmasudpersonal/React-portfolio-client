@@ -3,6 +3,7 @@ import './Home.css';
 import bgVideo from '../../Assets/Videos/BackgroundVideo/Particle - 5187.mp4';
 import bgVideo2 from '../../Assets/Videos/BackgroundVideo/Network - 12716.mp4';
 import bgVideo22 from '../../Assets/Videos/BackgroundVideo/Bokeh - 5233.mp4';
+import bgVideo222 from '../../Assets/Videos/BackgroundVideo/Space - 18492.mp4';
 import About from '../About/About';
 import Resume from '../About/Resume/Resume';
 import Project from '../Project/Project';
@@ -35,7 +36,7 @@ const Home = () => {
           transform: 'translate(-50%, -50%)',
           zIndex: '-1',
         }}>
-          <source src={bgVideo} type='video/mp4' />
+          <source src={bgVideo222} type='video/mp4' />
         </video>
 
         <div className='container'>
