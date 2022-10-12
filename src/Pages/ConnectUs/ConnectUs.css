@@ -4,3 +4,12 @@
     background: rgba(0, 34, 85, 0.932);
     min-height: 350px;
 }
+.contact-submit-btn{
+    background-color: rgb(32, 78, 179);
+    color: white;
+    border: none;
+    transition: .3s;
+}
+.contact-submit-btn:hover{
+    background-color: rgb(17, 67, 177);
+}

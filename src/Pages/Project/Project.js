@@ -18,8 +18,8 @@ const Project = () => {
                     consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
                     in iste officiis commodi quidem hic quas.</p>
 
-                <div className="card-deck">
-                    <div className="card rounded border-0 mt-2">
+                <div className="row">
+                    <div className="col-lg-4 rounded border-0 mt-2">
                         {/* ----------- */}
                         <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                             <div className="carousel-inner">
@@ -59,7 +59,7 @@ const Project = () => {
                         </div>
                     </div>
 
-                    <div className="card rounded border-0 mt-2">
+                    <div className="col-lg-4 rounded border-0 mt-2">
                         {/* ----------- */}
                         <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                             <div className="carousel-inner">
@@ -99,7 +99,7 @@ const Project = () => {
                         </div>
                     </div>
 
-                    <div className="card rounded border-0 mt-2">
+                    <div className="col-lg-4 rounded border-0 mt-2">
                         {/* ----------- */}
                         <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                             <div className="carousel-inner">

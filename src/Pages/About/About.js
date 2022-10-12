@@ -20,14 +20,14 @@ const About = () => {
                 </p>
 
                 <div className="row">
-                    <div className="col-sm-4 mt-3">
+                    <div className="col-md-4 mt-3">
                         <div className="">
                             <div className="">
                                 <img className='img-fluid rounded mx-auto' src='https://abdullahalmasud.netlify.app/assets/img/profile-img.jpg' alt='Abullah al masud' />
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-8 mt-3">
+                    <div className="col-md-8 mt-3">
                         <div className="">
                             <div className="">
                                 <h4>Full Stack Developer & Web Desiginer</h4>
