@@ -4,6 +4,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faEnvelope, faMobileAndroidAlt } from '@fortawesome/free-solid-svg-icons';
+import ContactForm from './ContactForm';
 library.add(fab)
 
 const ConnectUs = () => {
@@ -48,15 +49,7 @@ const ConnectUs = () => {
           <div class="col-md-8 mb-5">
             <div class="">
               <div class="">
-                <form className='mb-5'>
-                  <div className='d-flex gap-3 mb-4'>
-                    <input style={{borderRadius:"4px", height:'40px', borderHover:'none'}} className='w-50 ps-2' type='text' placeholder='Your Name' />
-                    <input style={{borderRadius:"4px", height:'40px'}} className='w-50 ps-2' type='email' placeholder='Your Email' />
-                  </div>
-                  <input style={{borderRadius:"4px", height:'40px'}} className='w-100 ps-2' type='text' placeholder='Subject' />
-                  <textarea style={{height:'150px', borderRadius:'4px'}} className='w-100 mt-4 ps-2' placeholder='Message' />
-                  <input style={{height:'40px', borderRadius:'50px'}} className='px-5 mt-3 contact-submit-btn' type='submit' value='Send Message' />
-                </form>
+                <ContactForm />
               </div>
             </div>
           </div>

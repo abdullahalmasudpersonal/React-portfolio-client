@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 /* import { fab } from '@fortawesome/free-brands-svg-icons'; */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import profileImg from '../../Assets/img/Profile/profile-img.jpg';
 import './About.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -23,7 +24,7 @@ const About = () => {
                     <div className="col-md-4 mt-3">
                         <div className="">
                             <div className="">
-                                <img className='img-fluid rounded mx-auto' src='https://abdullahalmasud.netlify.app/assets/img/profile-img.jpg' alt='Abullah al masud' />
+                                <img className='img-fluid rounded mx-auto' src={profileImg} alt='Abullah al masud' />
                             </div>
                         </div>
                     </div>
