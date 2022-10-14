@@ -1,6 +1,6 @@
 .home-bg {
-   background: rgba(0, 0, 0, 0.637) !important;
-   /* background-image: url('https://abdullahalmasud.netlify.app/assets/img/profile-img.jpg'); */
+   background: rgba(11, 37, 90, 0.486)!important;
+   /* background-image: url('https://abdullahalmasud.netlify.app/assets/img/profile-img.jpg');  */
    height: 100vh;
    width: 100%;
    z-index: 1;
@@ -9,6 +9,10 @@
    background-position: center center;
    display: flex;
    align-items: center;
+}
+
+.home-down-bg {
+   background: rgb(0, 41, 102);
 }
 
 .home-my-name {
@@ -57,7 +61,7 @@
    background: linear-gradient(45deg, #ff9b9b, #ffc28f, #fffd99, #bcffa3, #ffda95, #9bacff, #c38cff, #ff96e8, #ff9393);
    position: absolute;
    top: -2px;
-   left:-2px;
+   left: -2px;
    background-size: 400%;
    z-index: -1;
    filter: blur(5px);
@@ -94,17 +98,25 @@
 }
 
 @keyframes glowing {
-   0% { background-position: 0 0; }
-   50% { background-position: 400% 0; }
-   100% { background-position: 0 0; }
+   0% {
+      background-position: 0 0;
+   }
+
+   50% {
+      background-position: 400% 0;
+   }
+
+   100% {
+      background-position: 0 0;
+   }
 }
 
 /* -------------header style start------------- */
 .header-bg {
-   background: rgba(39, 39, 39, 0.74);
-   box-shadow: rgba(114, 114, 167, 0.582) 0px 1px 0px;
+  /*  background: transparent; */
+   background: rgba(39, 39, 39, 0.87);
+  /* box-shadow: rgba(114, 114, 167, 0.582) 0px 1px 0px; */
 }
-
 .navber-name {
    font-size: x-large;
    color: white;

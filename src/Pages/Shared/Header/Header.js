@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div className="header-bg fixed-top">
+    <div className="header-bg fixed-top active">
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-dark">
 

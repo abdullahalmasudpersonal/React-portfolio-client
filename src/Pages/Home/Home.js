@@ -1,9 +1,11 @@
 import React from 'react';
 import './Home.css';
+import '../../App.css';
 import bgVideo from '../../Assets/Videos/BackgroundVideo/Particle - 5187.mp4';
 import bgVideo2 from '../../Assets/Videos/BackgroundVideo/Network - 12716.mp4';
 import bgVideo22 from '../../Assets/Videos/BackgroundVideo/Bokeh - 5233.mp4';
 import bgVideo222 from '../../Assets/Videos/BackgroundVideo/Space - 18492.mp4';
+import bgVideo2222 from '../../Assets/Videos/BackgroundVideo/Spherical_Network_Background_5.mp4';
 import About from '../About/About';
 import Resume from '../About/Resume/Resume';
 import Project from '../Project/Project';
@@ -13,6 +15,7 @@ import Blogs from '../Blogs/Blogs';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Counter from '../Counter/Counter';
 import Skills from '../Skills/Skills';
+/* import ParticlesBackground from './ParticlesBackground'; */
 
 
 const Home = () => {
@@ -26,7 +29,8 @@ const Home = () => {
   return (
     <div>
       <div id='home' className='home-bg'>
-        <video autoPlay loop muted style={{
+ {/*        <ParticlesBackground /> */}
+          <video autoPlay loop muted style={{
           position: 'absolute',
           width: '100%',
           left: '50%',
@@ -36,10 +40,29 @@ const Home = () => {
           transform: 'translate(-50%, -50%)',
           zIndex: '-1',
         }}>
-          <source src={bgVideo222} type='video/mp4' />
-        </video>
+          <source src={bgVideo2222} type='video/mp4' />
+        </video> 
+        {/*       <Particles
+          params={{
+            "particles": {
+              "number": {
+                "value": 50
+              },
+              "size": {
+                "value": 3
+              }
+            },
+            "interactivity": {
+              "events": {
+                "onhover": {
+                  "enable": true,
+                  "mode": "repulse"
+                }
+              }
+            }
+          }} /> */}
 
-        <div className='container'>
+         <div className='container'>
 
           <h4 className=' display-3 fw-bold home-my-name '>Abdullah al masud</h4>
 
@@ -76,19 +99,21 @@ const Home = () => {
             ><i className="fab fa-stack-overflow"></i
             ></a>
           </section>
-          
+
           <button className="glow-on-hover fw-bold mt-4" type="button">DOWNLOAD RESUME</button>
 
-        </div>
+        </div> 
       </div>
-      <About />
-      <Counter/>
-      <Skills/>
-      <Resume />
-      <Project />
-      <Services />
-      <Blogs />
-      <ConnectUs />
+     <div className='home-down-bg'>
+        <About />
+        <Counter />
+        <Skills />
+        <Resume />
+        <Project />
+        <Services />
+        <Blogs />
+        <ConnectUs />
+      </div> 
     </div>
 
   );
