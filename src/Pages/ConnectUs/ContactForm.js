@@ -25,7 +25,7 @@ const ContactForm = () => {
     };
     setTimeout(() => {
         setResult(false)
-    }, 8000);
+    }, 10000);
 
     return (
         <form className='mb-5' ref={form} onSubmit={sendEmail}>

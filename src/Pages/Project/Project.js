@@ -18,149 +18,130 @@ const Project = () => {
                     consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
                     in iste officiis commodi quidem hic quas.</p>
 
-                <div className="row">
-                    <div className="col-lg-4 rounded border-0 mt-2">
-                        {/* ----------- */}
-                        <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <img className="d-block w-100 rounded-top" src={laptopStore1} />
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="d-block w-100 rounded-top" src={laptopStore2} />
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="d-block w-100 rounded-top" src={laptopStore3} />
+                <div class="row row-cols-1 row-cols-md-3 g-4 project-dev-bg">
+                    <div class="col  ">
+                        <div class=" h-100 project-dev-shadow">
+                            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                        <img className="d-block w-100 rounded-top" src={laptopStore1} />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block w-100 rounded-top" src={laptopStore2} />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block w-100 rounded-top" src={laptopStore3} />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        {/* ----------- */}
-                        <div className="card-body project-project-dev">
-                            <h5 className="card-title">Laptop Store</h5>
-                            <p className="card-title ">Laptop Manufacturing Website</p>
-                            <div className="card-text "><small>
-                                <ul>
-                                    <li>Laptop Store is a manufacture company warehouse.</li>
-                                    <li>From here the products are delivered to the dealers.</li>
-                                    <li>Many products are sold together from here.</li>
-                                    <li>Retail products are not sold from here.</li>
-                                </ul>
-                            </small>
+                            {/* ------------------ */}
+                            <div className=" project-project-dev">
+                                <h5 className=" mt-3">Laptop Store</h5>
+                                <p className=" ">Laptop Manufacturing Website</p>
+                                <div className=""><small>
+                                    <ul>
+                                        <li>Laptop Store is a manufacture company warehouse.</li>
+                                        <li>From here the products are delivered to the dealers.</li>
+                                        <li>Many products are sold together from here.</li>
+                                        <li>Retail products are not sold from here.</li>
+                                    </ul>
+                                </small>
+                                </div>
                             </div>
-                        </div>
-                        <div className="p-2 project-project-dev">
-                            <small className="d-flex justify-content-end">
-                                <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button>
-                                <button className='project-live-btn'> <i className="fab fa-github"></i
-                                > Client</button>
-                                <button className='project-live-btn'> <i className="fab fa-github"></i
-                                > Server</button>
-                            </small>
+                            <div className="p-2 project-project-dev">
+                                <small className="d-flex justify-content-end">
+                                    <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button>
+                                    <button className='project-live-btn'> <i className="fab fa-github"></i
+                                    > Client</button>
+                                    <button className='project-live-btn'> <i className="fab fa-github"></i
+                                    > Server</button>
+                                </small>
+                            </div>
                         </div>
                     </div>
+                    <div class="col ">
+                        <div class=" h-100 project-dev-shadow">
+                            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                        <img className="d-block w-100 rounded-top" src={laptopStore1} />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block w-100 rounded-top" src={laptopStore2} />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block w-100 rounded-top" src={laptopStore3} />
+                                    </div>
+                                </div>
+                            </div>
+                            {/* ------------------ */}
+                            <div className=" project-project-dev">
+                                <h5 className=" mt-3">Laptop Store</h5>
+                                <p className=" ">Laptop Manufacturing Website</p>
+                                <div className=""><small>
+                                    <ul>
+                                        <li>Laptop Store is a manufacture company warehouse.</li>
+                                        <li>From here the products are delivered to the dealers.</li>
+                                        <li>Many products are sold together from here.</li>
+                                        <li>Retail products are not sold from here.</li>
+                                    </ul>
+                                </small>
+                                </div>
+                            </div>
+                            <div className="p-2 project-project-dev">
+                                <small className="d-flex justify-content-end">
+                                    <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button>
+                                    <button className='project-live-btn'> <i className="fab fa-github"></i
+                                    > Client</button>
+                                    <button className='project-live-btn'> <i className="fab fa-github"></i
+                                    > Server</button>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class=" h-100 project-dev-shadow">
+                            {/* ------------------ */}
+                            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                        <img className="d-block w-100 rounded-top" src={laptopStore1} />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block w-100 rounded-top" src={laptopStore2} />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block w-100 rounded-top" src={laptopStore3} />
+                                    </div>
+                                </div>
+                            </div>
+                            {/* ------------------ */}
+                            <div className=" project-project-dev">
+                                <h5 className=" mt-3">Laptop Store</h5>
+                                <p className=" ">Laptop Manufacturing Website</p>
+                                <div className=""><small>
+                                    <ul>
+                                        <li>Laptop Store is a manufacture company warehouse.</li>
+                                        <li>From here the products are delivered to the dealers.</li>
+                                        <li>Many products are sold together from here.</li>
+                                        <li>Retail products are not sold from here.</li>
+                                    </ul>
+                                </small>
+                                </div>
+                            </div>
 
-                    <div className="col-lg-4 rounded border-0 mt-2">
-                        {/* ----------- */}
-                        <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <img className="d-block w-100 rounded-top" src={laptopStore1} />
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="d-block w-100 rounded-top" src={laptopStore2} />
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="d-block w-100 rounded-top" src={laptopStore3} />
-                                </div>
+                            <div className="p-2 project-project-dev">
+                                <small className="d-flex justify-content-end">
+                                    <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button>
+                                    <button className='project-live-btn'> <i className="fab fa-github"></i
+                                    > Client</button>
+                                    <button className='project-live-btn'> <i className="fab fa-github"></i
+                                    > Server</button>
+                                </small>
                             </div>
-                        </div>
-                        {/* ----------- */}
-                        <div className="card-body project-project-dev">
-                            <h5 className="card-title">Laptop Store</h5>
-                            <p className="card-title ">Laptop Manufacturing Website</p>
-                            <div className="card-text "><small>
-                                <ul>
-                                    <li>Laptop Store is a manufacture company warehouse.</li>
-                                    <li>From here the products are delivered to the dealers.</li>
-                                    <li>Many products are sold together from here.</li>
-                                    <li>Retail products are not sold from here.</li>
-                                </ul>
-                            </small>
-                            </div>
-                        </div>
-                        <div className="p-2 project-project-dev">
-                            <small className="d-flex justify-content-end">
-                                <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button>
-                                <button className='project-live-btn'> <i className="fab fa-github"></i
-                                > Client</button>
-                                <button className='project-live-btn'> <i className="fab fa-github"></i
-                                > Server</button>
-                            </small>
                         </div>
                     </div>
-
-                    <div className="col-lg-4 rounded border-0 mt-2">
-                        {/* ----------- */}
-                        <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <img className="d-block w-100 rounded-top" src={laptopStore1} />
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="d-block w-100 rounded-top" src={laptopStore2} />
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="d-block w-100 rounded-top" src={laptopStore3} />
-                                </div>
-                            </div>
-                        </div>
-                        {/* ----------- */}
-                        <div className="card-body project-project-dev">
-                            <h5 className="card-title">Laptop Store</h5>
-                            <p className="card-title ">Laptop Manufacturing Website</p>
-                            <div className="card-text "><small>
-                                <ul>
-                                    <li>Laptop Store is a manufacture company warehouse.</li>
-                                    <li>From here the products are delivered to the dealers.</li>
-                                    <li>Many products are sold together from here.</li>
-                                    <li>Retail products are not sold from here.</li>
-                                </ul>
-                            </small>
-                            </div>
-                        </div>
-                        <div className="p-2 project-project-dev">
-                            <small className="d-flex justify-content-end">
-                                <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button>
-                                <button className='project-live-btn'> <i className="fab fa-github"></i
-                                > Client</button>
-                                <button className='project-live-btn'> <i className="fab fa-github"></i
-                                > Server</button>
-                            </small>
-                        </div>
-                    </div>
-
-                    {/* <div className="card">
-                        <img className="card-img-top" src="..." alt="Card image cap" />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div className="card-footer">
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img className="card-img-top" src="..." alt="Card image cap" />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div className="card-footer">
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div> */}
                 </div>
-
             </div>
         </div>
     );
