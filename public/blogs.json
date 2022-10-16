@@ -1,0 +1,31 @@
+[
+    {
+        "_id": "54645245431",
+        "name": "HTML",
+        "image": "https://i.ibb.co/MSBj2RW/html.jpg",
+        "date": "3 Noverber, 2021",
+        "description":"The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript."
+    },
+    {
+        "_id": "546452454325431",
+        "name": "CSS",
+        "image": "https://i.ibb.co/HNTfFr6/css.jpg",
+        "date": "13 Noverber, 2021",
+        "description":"The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript."
+    },
+    {
+        "_id": "54645452245431",
+        "name": "BOOTSTRAP",
+        "image": "https://i.ibb.co/D1LpYV1/bootstrap.webp",
+        "date": "20 Noverber, 2021",
+        "description":"The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript."
+    },
+    {
+        "_id": "54645452245431",
+        "name": "BOOTSTRAP",
+        "image": "https://i.ibb.co/D1LpYV1/bootstrap.webp",
+        "date": "20 Noverber, 2021",
+        "description":"The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript."
+    }
+
+]

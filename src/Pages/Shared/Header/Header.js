@@ -45,11 +45,11 @@ const Header = () => {
               <li className="nav-item fw-bold px-2">
                 <a className="nav-link text-light" href="/#connect-us">Connect Us</a>
               </li>
-              <li className="nav-item fw-bold px-2">
+              {/* <li className="nav-item fw-bold px-2">
                 <Link to='/allblogs'>
                   <a className="nav-link text-light" href="/allblogs">AllBlogs</a>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>

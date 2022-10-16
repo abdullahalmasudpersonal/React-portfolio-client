@@ -29,8 +29,9 @@ const Home = () => {
   return (
     <div>
       <div id='home' className='home-bg'>
- {/*        <ParticlesBackground /> */}
-          <video autoPlay loop muted style={{
+        {/*        <ParticlesBackground /> */}
+
+        {/* <video autoPlay loop muted style={{
           position: 'absolute',
           width: '100%',
           left: '50%',
@@ -41,7 +42,8 @@ const Home = () => {
           zIndex: '-1',
         }}>
           <source src={bgVideo2222} type='video/mp4' />
-        </video> 
+        </video>  */}
+
         {/*       <Particles
           params={{
             "particles": {
@@ -62,7 +64,7 @@ const Home = () => {
             }
           }} /> */}
 
-         <div className='container'>
+        <div className='container'>
 
           <h4 className=' display-3 fw-bold home-my-name '>Abdullah al masud</h4>
 
@@ -102,9 +104,9 @@ const Home = () => {
 
           <button className="glow-on-hover fw-bold mt-4" type="button">DOWNLOAD RESUME</button>
 
-        </div> 
+        </div>
       </div>
-     <div className='home-down-bg'>
+      <div className='home-down-bg'>
         <About />
         <Counter />
         <Skills />
@@ -113,7 +115,7 @@ const Home = () => {
         <Services />
         <Blogs />
         <ConnectUs />
-      </div> 
+      </div>
     </div>
 
   );

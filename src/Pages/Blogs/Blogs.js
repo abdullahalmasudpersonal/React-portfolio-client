@@ -1,14 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import Blog from '../AllBlogs/Blog';
 import './Blogs.css';
 
 const Blogs = () => {
+    const [blogs, setBlogs] = useState([]);
+    useEffect(() => {
+        fetch('blogs.json')
+            .then(res => res.json())
+            .then(data => setBlogs(data));
+    }, []);
+
     return (
         <div id='blogs' className='blogs-bg'>
             <div className='pt-3'>
                 <h3 className='text-center pt-5 numbers-numbers-headline'>BLOGS</h3>
-                <div className='d-flex justify-content-center align-items-center' style={{height:'300px'}}> 
-                    <div>
-                    <p>Comming soon...</p>
+                <div className='container mt-5'>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        {
+                            blogs.slice(0, 3).map(blog => <Blog key={blog._id} blog={blog} />)
+                        }
+                    </div>
+                    <div className='blogs-see-all-btn'>
+                        <Link to='/allblogs'>
+                            <button >
+                                See All Blogs
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
