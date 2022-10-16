@@ -1,6 +1,6 @@
 .home-bg {
-   background: rgba(2, 53, 155, 0.13);
-   background: url('https://abdullahalmasud1.netlify.app/assets/img/hero-bg.jpg') no-repeat top right;
+   /* background: rgba(2, 53, 155, 0.13) !important; */
+  /*  background: url('https://abdullahalmasud1.netlify.app/assets/img/hero-bg.jpg') no-repeat top right;  */
    height: 100vh;
    width: 100%;
    background-size: cover;
@@ -8,7 +8,7 @@
    display: flex;
    align-items: center;
 }
-#home:before {
+/* .home-bg:before {
    content: "";
    background: rgba(0, 1, 17, 0.493);
    position: absolute;
@@ -16,11 +16,11 @@
    top: 0;
    left: 0;
    right: 0;
- }
+ } */
 
 
 .home-down-bg {
-   background: rgb(0, 41, 102);
+   background-color: rgb(0, 41, 102);
 }
 
 .home-my-name {

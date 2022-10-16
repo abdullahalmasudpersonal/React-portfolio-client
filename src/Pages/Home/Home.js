@@ -1,11 +1,6 @@
 import React from 'react';
 import './Home.css';
 import '../../App.css';
-import bgVideo from '../../Assets/Videos/BackgroundVideo/Particle - 5187.mp4';
-import bgVideo2 from '../../Assets/Videos/BackgroundVideo/Network - 12716.mp4';
-import bgVideo22 from '../../Assets/Videos/BackgroundVideo/Bokeh - 5233.mp4';
-import bgVideo222 from '../../Assets/Videos/BackgroundVideo/Space - 18492.mp4';
-import bgVideo2222 from '../../Assets/Videos/BackgroundVideo/Spherical_Network_Background_5.mp4';
 import About from '../About/About';
 import Resume from '../About/Resume/Resume';
 import Project from '../Project/Project';
@@ -15,7 +10,10 @@ import Blogs from '../Blogs/Blogs';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Counter from '../Counter/Counter';
 import Skills from '../Skills/Skills';
-/* import ParticlesBackground from './ParticlesBackground'; */
+import { useCallback } from "react";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+import ParticleAnimi from './config/ParticleAnimi';
 
 
 const Home = () => {
@@ -26,43 +24,104 @@ const Home = () => {
     deleteSpeed: 80,
   });
 
+  const particlesInit = useCallback(async (engine) => {
+    console.log(engine);
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine);
+  }, []);
+
+  const particlesLoaded = useCallback(async (container) => {
+    await console.log(container);
+  }, []);
+
+
   return (
     <div>
       <div id='home' className='home-bg'>
-        {/*        <ParticlesBackground /> */}
 
-        {/* <video autoPlay loop muted style={{
-          position: 'absolute',
-          width: '100%',
-          left: '50%',
-          top: '50%',
-          height: '100%',
-          objectFit: 'cover',
-          transform: 'translate(-50%, -50%)',
-          zIndex: '-1',
-        }}>
-          <source src={bgVideo2222} type='video/mp4' />
-        </video>  */}
-
-        {/*       <Particles
-          params={{
-            "particles": {
-              "number": {
-                "value": 50
-              },
-              "size": {
-                "value": 3
-              }
+     {/*  <Particles
+      id="tsparticles"
+      init={particlesInit}
+      loaded={particlesLoaded}
+      options={{
+       background: {
+          color: {
+            value: "#0d47a1",
+          },
+        }, 
+        fpsLimit: 60,
+        interactivity: {
+          events: {
+            onClick: {
+              enable: true,
+              mode: "push",
             },
-            "interactivity": {
-              "events": {
-                "onhover": {
-                  "enable": true,
-                  "mode": "repulse"
-                }
-              }
-            }
-          }} /> */}
+            onHover: {
+              enable: true,
+              mode: "repulse",
+            },
+            resize: true,
+          },
+          modes: {
+            push: {
+              quantity: 4,
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4,
+            },
+          },
+        },
+        particles: {
+          color: {
+            value: "#ffffff",
+          },
+          links: {
+            color: "#ffffff",
+            distance: 150,
+            enable: true,
+            opacity: 0.5,
+            width: 1,
+          },
+          collisions: {
+            enable: true,
+          },
+          move: {
+            directions: "none",
+            enable: true,
+            outModes: {
+              default: "bounce",
+            },
+            random: false,
+            speed: 6,
+            straight: false,
+          },
+          number: {
+            density: {
+              enable: true,
+              area: 800,
+            },
+            value: 80,
+          },
+          opacity: {
+            value: 0.5,
+          },
+          shape: {
+            type: "circle",
+          },
+          size: {
+            value: { min: 1, max: 5 },
+          },
+        },
+        detectRetina: true,
+      }}
+    /> */}
+      
+       <ParticleAnimi/> 
+
+        
 
         <div className='container'>
 
