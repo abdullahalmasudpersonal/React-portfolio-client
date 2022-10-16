@@ -1,8 +1,8 @@
-const particlesConfig = {
+const particlesConfig ={
   "autoPlay": true,
   "background": {
     "color": {
-      "value": "rgba(0, 41, 102, 0.678)"
+      "value": "rgba(0, 41, 102, 0.979)"
     },
     "image": "",
     "position": "",
@@ -57,7 +57,7 @@ const particlesConfig = {
         "duration": 0.4,
         "easing": "ease-out-quad",
         "factor": 1,
-        "maxSpeed": 20,
+        "maxSpeed": 50,
         "speed": 1
       },
       "bounce": {
@@ -101,15 +101,15 @@ const particlesConfig = {
         "distance": 200,
         "duration": 0.4,
         "factor": 100,
-        "speed": .5,
-        "maxSpeed": 20,
+        "speed": 1,
+        "maxSpeed": 50,
         "easing": "ease-out-quad",
         "divs": {
           "distance": 200,
           "duration": 0.4,
           "factor": 100,
-          "speed": .5,
-          "maxSpeed": 20,
+          "speed": 1,
+          "maxSpeed": 50,
           "easing": "ease-out-quad",
           "selectors": []
         }
@@ -241,7 +241,7 @@ const particlesConfig = {
           "count": 0,
           "enable": false,
           "offset": 0,
-          "speed": .5,
+          "speed": 1,
           "decay": 0,
           "sync": true
         },
@@ -249,7 +249,7 @@ const particlesConfig = {
           "count": 0,
           "enable": false,
           "offset": 0,
-          "speed": .5,
+          "speed": 1,
           "decay": 0,
           "sync": true
         }
@@ -284,7 +284,7 @@ const particlesConfig = {
         "acceleration": 9.81,
         "enable": false,
         "inverse": false,
-        "maxSpeed":250
+        "maxSpeed": 50
       },
       "path": {
         "clamp": true,
@@ -513,7 +513,7 @@ const particlesConfig = {
       "animation": {
         "count": 0,
         "enable": false,
-        "speed": .5,
+        "speed": 1,
         "decay": 0,
         "sync": false
       },

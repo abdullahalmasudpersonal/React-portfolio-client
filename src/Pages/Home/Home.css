@@ -110,19 +110,20 @@
 /* -------------header style start------------- */
 .header-bg {
    /*  background: transparent; */
-   background: rgba(39, 39, 39, 0.87);
+   background: rgba(0, 35, 133, 0.726);
    /* box-shadow: rgba(114, 114, 167, 0.582) 0px 1px 0px; */
 }
 
 .navber-name {
+   color: rgb(0, 21, 92) !important;
+   -webkit-text-stroke: .5px rgb(255, 255, 255);
    font-size: x-large;
-   color: white;
    font-weight: bold;
    font-family: 'Playfair Display', serif;
 }
 
 .navber-name:hover {
-   color: white;
+   color: rgb(255, 255, 255);
 }
 
 /* -------------header style end------------- */

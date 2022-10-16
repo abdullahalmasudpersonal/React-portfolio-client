@@ -9,7 +9,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navbar-dark">
 
           <Link to='/'>
-            <a className="navbar-brand navber-name" href="/#home">Abdullah Al Masud</a>
+            <a className="navbar-brand navber-name" href="/#home">Portfolio</a>
           </Link>
 
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
