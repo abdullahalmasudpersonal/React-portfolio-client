@@ -57,8 +57,8 @@ const particlesConfig ={
         "duration": 0.4,
         "easing": "ease-out-quad",
         "factor": 1,
-        "maxSpeed": 50,
-        "speed": 1
+        "maxSpeed": 10,
+        "speed": .3
       },
       "bounce": {
         "distance": 200
@@ -101,15 +101,15 @@ const particlesConfig ={
         "distance": 200,
         "duration": 0.4,
         "factor": 100,
-        "speed": 1,
-        "maxSpeed": 50,
+        "speed": .3,
+        "maxSpeed": 10,
         "easing": "ease-out-quad",
         "divs": {
           "distance": 200,
           "duration": 0.4,
           "factor": 100,
-          "speed": 1,
-          "maxSpeed": 50,
+          "speed": .3,
+          "maxSpeed": 10,
           "easing": "ease-out-quad",
           "selectors": []
         }
@@ -241,7 +241,7 @@ const particlesConfig ={
           "count": 0,
           "enable": false,
           "offset": 0,
-          "speed": 1,
+          "speed": .3,
           "decay": 0,
           "sync": true
         },
@@ -249,7 +249,7 @@ const particlesConfig ={
           "count": 0,
           "enable": false,
           "offset": 0,
-          "speed": 1,
+          "speed": .3,
           "decay": 0,
           "sync": true
         }
@@ -284,7 +284,7 @@ const particlesConfig ={
         "acceleration": 9.81,
         "enable": false,
         "inverse": false,
-        "maxSpeed": 50
+        "maxSpeed":250
       },
       "path": {
         "clamp": true,
@@ -513,7 +513,7 @@ const particlesConfig ={
       "animation": {
         "count": 0,
         "enable": false,
-        "speed": 1,
+        "speed": .3,
         "decay": 0,
         "sync": false
       },
@@ -562,7 +562,7 @@ const particlesConfig ={
       "distance": 1,
       "duration": 1,
       "factor": 1,
-      "speed": 1
+      "speed": .3
     }
   },
   "pauseOnBlur": true,

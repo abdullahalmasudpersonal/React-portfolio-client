@@ -41,87 +41,87 @@ const Home = () => {
     <div>
       <div id='home' className='home-bg'>
 
-     {/*  <Particles
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
-       background: {
-          color: {
-            value: "#0d47a1",
-          },
-        }, 
-        fpsLimit: 60,
-        interactivity: {
-          events: {
-            onClick: {
-              enable: true,
-              mode: "push",
+       {/* <Particles
+          id="tsparticles"
+          init={particlesInit}
+          loaded={particlesLoaded}
+          options={{
+            background: {
+              color: {
+                value: "#0d47a1",
+              },
             },
-            onHover: {
-              enable: true,
-              mode: "repulse",
+            fpsLimit: 60,
+            interactivity: {
+              events: {
+                onClick: {
+                  enable: true,
+                  mode: "push",
+                },
+                onHover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+                resize: true,
+              },
+              modes: {
+                push: {
+                  quantity: 4,
+                },
+                repulse: {
+                  distance: 200,
+                  duration: 0.4,
+                },
+              },
             },
-            resize: true,
-          },
-          modes: {
-            push: {
-              quantity: 4,
+            particles: {
+              color: {
+                value: "#ffffff",
+              },
+              links: {
+                color: "#ffffff",
+                distance: 150,
+                enable: true,
+                opacity: 0.5,
+                width: 1,
+              },
+              collisions: {
+                enable: true,
+              },
+              move: {
+                directions: "none",
+                enable: true,
+                outModes: {
+                  default: "bounce",
+                },
+                random: false,
+                speed: 6,
+                straight: false,
+              },
+              number: {
+                density: {
+                  enable: true,
+                  area: 800,
+                },
+                value: 80,
+              },
+              opacity: {
+                value: 0.5,
+              },
+              shape: {
+                type: "circle",
+              },
+              size: {
+                value: { min: 1, max: 5 },
+              },
             },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-          },
-        },
-        particles: {
-          color: {
-            value: "#ffffff",
-          },
-          links: {
-            color: "#ffffff",
-            distance: 150,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            directions: "none",
-            enable: true,
-            outModes: {
-              default: "bounce",
-            },
-            random: false,
-            speed: 6,
-            straight: false,
-          },
-          number: {
-            density: {
-              enable: true,
-              area: 800,
-            },
-            value: 80,
-          },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            value: { min: 1, max: 5 },
-          },
-        },
-        detectRetina: true,
-      }}
-    /> */}
-      
-       <ParticleAnimi/> 
+            detectRetina: true,
+          }}
+        />  */}
 
-        
+        <ParticleAnimi/>  
+
+
 
         <div className='container'>
 
@@ -136,29 +136,19 @@ const Home = () => {
           </h3>
 
           <section className="mt-3">
-            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-            ><i className="fab fa-linkedin-in"></i
-            ></a>
+            <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/abdullah-al-masud-48ab691b1" target='_blank' role="button"><i className="fab fa-linkedin-in"></i></a>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-            ><i className="fab fa-github"></i
-            ></a>
+            <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/abdullahalmasudpersonal" role="button" target='_blank' ><i className="fab fa-github"></i></a>
 
-            <a className="btn btn-outline-light btn-floating m-1 facebook-padding" href="#!" role="button"
-            ><i className="fab fa-facebook-f"></i
-            ></a>
+            <a className="btn btn-outline-light btn-floating m-1" href="https://stackoverflow.com/users/19008268/abdullah-al-masud" role="button" target='_blank'><i className="fab fa-stack-overflow"></i></a>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-            ><i className="fab fa-twitter"></i
-            ></a>
+            <a className="btn btn-outline-light btn-floating m-1 facebook-padding" href="https://www.facebook.com/abdullahal.masud.5891" role="button" target='_blank'><i className="fab fa-facebook-f"></i></a>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-            ><i className="fab fa-dribbble"></i
-            ></a>
+            <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Abdulla14032407" role="button" target='_blank'><i className="fab fa-twitter"></i></a>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-            ><i className="fab fa-stack-overflow"></i
-            ></a>
+            <a className="btn btn-outline-light btn-floating m-1" href="https://dribbble.com/Abdullah540" role="button" target='_blank'><i className="fab fa-dribbble"></i></a>
+
+            
           </section>
 
           <button className="glow-on-hover fw-bold mt-4" type="button">DOWNLOAD RESUME</button>
