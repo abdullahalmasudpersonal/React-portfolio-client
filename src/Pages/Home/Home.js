@@ -11,9 +11,13 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Counter from '../Counter/Counter';
 import Skills from '../Skills/Skills';
 import { useCallback } from "react";
+import resume from '../../Assets/img/ResumePDF/MASUD Full-stack Developer Resume.pdf';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import ParticleAnimi from './config/ParticleAnimi';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import MovingComponent from 'react-moving-text';
 
 
 const Home = () => {
@@ -41,7 +45,7 @@ const Home = () => {
     <div>
       <div id='home' className='home-bg'>
 
-       {/* <Particles
+        {/*  <Particles
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
@@ -117,42 +121,89 @@ const Home = () => {
             },
             detectRetina: true,
           }}
-        />  */}
+        />  */} 
 
-        <ParticleAnimi/>  
-
+         {/* <ParticleAnimi />  */}
 
 
         <div className='container'>
+          <div>
 
-          <h4 className=' display-3 fw-bold home-my-name '>Abdullah al masud</h4>
+         
 
-          <h3 className='home-my-title'>
-            I'm {' '}
-            <span style={{ fontWeight: 'bold' }}>
-              {text}
-            </span>
-            <Cursor style={{ color: 'white' }} />
-          </h3>
+        {/*   <MovingComponent style={{ color: 'white' }}
+            type="fadeInFromTop"
+            duration="2000ms"
+            delay="0s"
+            direction="normal"
+            timing="ease"
+            iteration="1"
+            fillMode="none">
+            <p className='  fw-bold home-my-name '>Abdullah al masud</p>
+          </MovingComponent> */}
 
-          <section className="mt-3">
-            <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/abdullah-al-masud-48ab691b1" target='_blank' role="button"><i className="fab fa-linkedin-in"></i></a>
+          <MovingComponent
+            type="fadeInFromTop"
+            duration="2000ms"
+            delay="0s"
+            direction="normal"
+            timing="ease-in-out"
+            iteration="1"
+            fillMode="both">
+            <h3 className=' display-3 fw-bold home-my-name '>Abdullah al masud</h3>
+          </MovingComponent>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/abdullahalmasudpersonal" role="button" target='_blank' ><i className="fab fa-github"></i></a>
+          <MovingComponent
+            type="fadeInFromLeft"
+            duration="2000ms"
+            delay="0s"
+            direction="normal"
+            timing="ease-in-out"
+            iteration="1"
+            fillMode="both">
+            <h3 className='home-my-title'>
+              I'm {' '}
+              <span style={{ fontWeight: 'bold' }}>
+                {text}
+              </span>
+              <Cursor style={{ color: 'white' }} />
+            </h3>
+          </MovingComponent>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="https://stackoverflow.com/users/19008268/abdullah-al-masud" role="button" target='_blank'><i className="fab fa-stack-overflow"></i></a>
+          <MovingComponent
+            type="fadeInFromRight"
+            duration="2000ms"
+            delay="0s"
+            direction="normal"
+            timing="ease-in-out"
+            iteration="1"
+            fillMode="both">
+            <section className="mt-3">
+              <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/abdullah-al-masud-48ab691b1" target='_blank' role="button"><i className="fab fa-linkedin-in"></i></a>
 
-            <a className="btn btn-outline-light btn-floating m-1 facebook-padding" href="https://www.facebook.com/abdullahal.masud.5891" role="button" target='_blank'><i className="fab fa-facebook-f"></i></a>
+              <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/abdullahalmasudpersonal" role="button" target='_blank' ><i className="fab fa-github"></i></a>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Abdulla14032407" role="button" target='_blank'><i className="fab fa-twitter"></i></a>
+              <a className="btn btn-outline-light btn-floating m-1" href="https://stackoverflow.com/users/19008268/abdullah-al-masud" role="button" target='_blank'><i className="fab fa-stack-overflow"></i></a>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="https://dribbble.com/Abdullah540" role="button" target='_blank'><i className="fab fa-dribbble"></i></a>
+              <a className="btn btn-outline-light btn-floating m-1 facebook-padding" href="https://www.facebook.com/abdullahal.masud.5891" role="button" target='_blank'><i className="fab fa-facebook-f"></i></a>
 
-            
-          </section>
+              <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Abdulla14032407" role="button" target='_blank'><i className="fab fa-twitter"></i></a>
 
-          <button className="glow-on-hover fw-bold mt-4" type="button">DOWNLOAD RESUME</button>
-
+              <a className="btn btn-outline-light btn-floating m-1" href="https://dribbble.com/Abdullah540" role="button" target='_blank'><i className="fab fa-dribbble"></i></a>
+            </section>
+          </MovingComponent>
+          {/*  <a download='Abdullah Resuem' href={resume}> <button className="glow-on-hover fw-bold mt-4" type="button"> RESUME <i className="fab fa-download"></i></button> </a> */}
+          <MovingComponent
+            type="fadeInFromBottom"
+            duration="2000ms"
+            delay="0s"
+            direction="normal"
+            timing="ease-in-out"
+            iteration="1"
+            fillMode="both">
+            <a download='Abdullah Resuem' href={resume}> <button className="resume-download-btn btn btn-outline-light btn-floating fw-bold mt-4" type="button">Resume &nbsp;<FontAwesomeIcon className='' s icon={faDownload} /></button> </a>
+          </MovingComponent>
+          </div>
         </div>
       </div>
       <div className='home-down-bg'>

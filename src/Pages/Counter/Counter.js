@@ -36,7 +36,7 @@ const Counter = () => {
                     <div className="d-flex justify-content-center align-items-center">
                         <div className="" style={{padding:'60px 110px'}}>
                             <div className='d-flex justify-content-center align-items-center'><FontAwesomeIcon className='' style={{ backgroundColor: 'white', color: 'rgb(44, 128, 238)', padding: '10px 14px', fontSize: '28px', borderRadius: '50%', border:'4px solid gray' }} icon={faAward} /></div>
-                            <h1 className='fw-bold text-center mt-3 mb-0'><CountUp end={1} /><span></span></h1>
+                            <h1 className='fw-bold text-center mt-3 mb-0'><CountUp end={2} /><span></span></h1>
                             <h5 className="mt-3">Certificate</h5>
                         </div>
                     </div>

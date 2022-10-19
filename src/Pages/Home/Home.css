@@ -1,6 +1,6 @@
 .home-bg {
-   /* background: rgba(2, 53, 155, 0.13) !important; */
-  /*  background: url('https://abdullahalmasud1.netlify.app/assets/img/hero-bg.jpg') no-repeat top right;  */
+   background: rgba(2, 53, 155, 0.534) ;
+   background: url('https://abdullahalmasud1.netlify.app/assets/img/hero-bg.jpg') no-repeat top right;
    height: 100vh;
    width: 100%;
    background-size: cover;
@@ -8,15 +8,16 @@
    display: flex;
    align-items: center;
 }
-/* .home-bg:before {
-   content: "";
-   background: rgba(0, 1, 17, 0.493);
+
+ .home-bg:before {
+   content: " ";
+   background: rgba(54, 84, 155, 0.774);
    position: absolute;
    bottom: 0;
    top: 0;
    left: 0;
    right: 0;
- } */
+ } 
 
 
 .home-down-bg {
@@ -35,8 +36,12 @@
    -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 
+.resume-download-btn {
+   padding: 8px 25px;
+}
 
-.glow-on-hover {
+
+/* .glow-on-hover {
    width: 220px;
    height: 50px;
    border: none;
@@ -105,7 +110,7 @@
    100% {
       background-position: 0 0;
    }
-}
+} */
 
 /* -------------header style start------------- */
 .header-bg {

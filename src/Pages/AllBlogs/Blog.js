@@ -1,8 +1,5 @@
 import React from 'react';
 import './Blog.css';
-import html from '../../Assets/img/Blogs/html.jpg';
-import css from '../../Assets/img/Blogs/css.jpg';
-import bootstrap from '../../Assets/img/Blogs/bootstrap.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
