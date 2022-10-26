@@ -50,11 +50,9 @@ const Project = () => {
                             </div>
                             <div className="p-2 project-project-dev">
                                 <small className="d-flex justify-content-end">
-                                    <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button>
-                                    <button className='project-live-btn'> <i className="fab fa-github"></i
-                                    > Client</button>
-                                    <button className='project-live-btn'> <i className="fab fa-github"></i
-                                    > Server</button>
+                                    <a href='https://laptop-stores.web.app/' target='_blank'>   <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button></a>
+                                    <a href='https://github.com/abdullahalmasudpersonal/Laptop-Store-Client' target='_blank'><button className='project-live-btn'> <i className="fab fa-github"></i> Client</button></a>
+                                    <a href='https://github.com/abdullahalmasudpersonal/laptop_store_server' target='_blank'><button className='project-live-btn'> <i className="fab fa-github"></i> Server</button></a>
                                 </small>
                             </div>
                         </div>
@@ -76,8 +74,8 @@ const Project = () => {
                             </div>
                             {/* ------------------ */}
                             <div className=" project-project-dev">
-                                <h5 className=" mt-3">Laptop Store</h5>
-                                <p className=" ">Laptop Manufacturing Website</p>
+                                <h5 className=" mt-3">Computer Accessories Warehouse</h5>
+                                <p className=" ">Computer Accessories Warehouse Website</p>
                                 <div className=""><small>
                                     <ul>
                                         <li>Laptop Store is a manufacture company warehouse.</li>
@@ -90,11 +88,9 @@ const Project = () => {
                             </div>
                             <div className="p-2 project-project-dev">
                                 <small className="d-flex justify-content-end">
-                                    <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button>
-                                    <button className='project-live-btn'> <i className="fab fa-github"></i
-                                    > Client</button>
-                                    <button className='project-live-btn'> <i className="fab fa-github"></i
-                                    > Server</button>
+                                    <a href='https://computer-accessories-warehouse.web.app/' target='_blank'>   <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button></a>
+                                    <a href='https://github.com/abdullahalmasudpersonal/Computer-Accessories-Warehouse-Client' target='_blank'><button className='project-live-btn'> <i className="fab fa-github"></i> Client</button></a>
+                                    <a href='https://github.com/abdullahalmasudpersonal/Computer-Accessories-Warehouse-server' target='_blank'><button className='project-live-btn'> <i className="fab fa-github"></i> Server</button></a>
                                 </small>
                             </div>
                         </div>
@@ -117,8 +113,8 @@ const Project = () => {
                             </div>
                             {/* ------------------ */}
                             <div className=" project-project-dev">
-                                <h5 className=" mt-3">Laptop Store</h5>
-                                <p className=" ">Laptop Manufacturing Website</p>
+                                <h5 className=" mt-3">Netcom</h5>
+                                <p className=" ">Netcom Social Media Web Application</p>
                                 <div className=""><small>
                                     <ul>
                                         <li>Laptop Store is a manufacture company warehouse.</li>
@@ -132,11 +128,9 @@ const Project = () => {
 
                             <div className="p-2 project-project-dev">
                                 <small className="d-flex justify-content-end">
-                                    <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button>
-                                    <button className='project-live-btn'> <i className="fab fa-github"></i
-                                    > Client</button>
-                                    <button className='project-live-btn'> <i className="fab fa-github"></i
-                                    > Server</button>
+                                    <a href='https://netcom1.web.app/' target='_blank'>   <button className='project-live-btn' ><FontAwesomeIcon icon={faEye} /> Live Preview</button></a>
+                                    <a href='https://github.com/abdullahalmasudpersonal/netcom-client' target='_blank'><button className='project-live-btn'> <i className="fab fa-github"></i> Client</button></a>
+                                    <a href='https://github.com/abdullahalmasudpersonal/netcom-server' target='_blank'><button className='project-live-btn'> <i className="fab fa-github"></i> Server</button></a>
                                 </small>
                             </div>
                         </div>
