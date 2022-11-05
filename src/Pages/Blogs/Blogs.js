@@ -14,8 +14,8 @@ const Blogs = () => {
     return (
         <div id='blogs' className='blogs-bg'>
             <div className='pt-3'>
-                <h3 className='text-center pt-5 numbers-numbers-headline'>BLOGS</h3>
-                <div className='container mt-5'>
+                <h3 className='text-center pt-5 mt-5 mb-5 numbers-numbers-headline'>BLOGS</h3>
+                <div className='container mt-5 pt-5'>
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         {
                             blogs.slice(0, 3).map(blog => <Blog key={blog._id} blog={blog} />)

@@ -7,10 +7,10 @@ import { faAward, faCode, faFileAlt, faGear } from '@fortawesome/free-solid-svg-
 const Counter = () => {
     return (
         <div className='counter-bg'>
-            <div className='container pt-3'>
+            <div className='container pt-5'>
                 <h3 className='text-center pt-5 numbers-numbers-headline'>NUMBERS</h3>
 
-                <div className="card-group  justify-content-center">
+                <div className="card-group pt-5 justify-content-center">
                     
                     <div className="d-flex justify-content-center align-items-center">
                         <div className="" style={{padding:'60px 110px'}}>

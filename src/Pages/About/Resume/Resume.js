@@ -5,7 +5,7 @@ const Resume = () => {
     return (
         <div id='resume' className='resume-bg'>
             <div className='container pt-3'>
-                <h3 className='text-center pt-5 numbers-numbers-headline'>RESUME</h3>
+                <h3 className='text-center pt-5 mt-5 mb-5 numbers-numbers-headline'>RESUME</h3>
 
                 <div class="row mt-5">
                     <div class="col-sm-6 mt-4">

@@ -7,7 +7,7 @@ const Services = () => {
     return (
         <div id='services' className='services-bg'>
             <div className='container pt-3 services-dev-bg'>
-                <h3 className='text-center pt-5 numbers-numbers-headline'>PACKAGE</h3>
+                <h3 className='text-center pt-5 mt-5 mb-5 numbers-numbers-headline'>PACKAGE</h3>
                 <div class="row">
                     <div class="col-md-3 mt-5">
                         <div class="py-4 package-bg">

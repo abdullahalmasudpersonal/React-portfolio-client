@@ -13,8 +13,8 @@ const Project = () => {
     return (
         <div id='projects' className='project-bg'>
             <div className='container pt-3'>
-                <h3 className='text-center pt-5 about-about-headline'>PROJECTS</h3>
-                <p className='text-center mt-4'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                <h3 className='text-center pt-5 mt-5 mb-5 about-about-headline'>PROJECTS</h3>
+                <p className='text-center mt-5 pt-5'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                     consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
                     in iste officiis commodi quidem hic quas.</p>
 

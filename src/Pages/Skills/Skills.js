@@ -25,7 +25,7 @@ const Skills = () => {
             <div className='container pt-3'>
                 <h3 className='text-center pt-5 mb-5 numbers-numbers-headline'>CORE SKILLS</h3>
 
-                <div class="skills-icon">
+                <div class="skills-icon pt-5">
                     <div className='skills-skills-img'>
                         <img style={{ width:'145px', height:'125px'}}  class="" src={skill1} alt="Card image cap" />
                     </div>

@@ -11,9 +11,9 @@ const ConnectUs = () => {
   return (
     <div id='connect-us' className='connect-us'>
       <div className='container pt-3'>
-        <h3 className='text-center pt-5 about-about-headline mb-5'>CONNECT</h3>
+        <h3 className='text-center pt-5 about-about-headline mb-5 mt-5'>CONNECT</h3>
 
-        <div class="row">
+        <div class="row pt-5">
           <div class="col-md-4 mb-5">
             <div class="">
               <div class="">
