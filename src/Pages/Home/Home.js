@@ -3,7 +3,6 @@ import './Home.css';
 import '../../App.css';
 import About from '../About/About';
 import Resume from '../About/Resume/Resume';
-import Project from '../Project/Project';
 import ConnectUs from '../ConnectUs/ConnectUs';
 import Services from '../Services/Services';
 import Blogs from '../Blogs/Blogs';
@@ -18,6 +17,7 @@ import ParticleAnimi from './config/ParticleAnimi';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import MovingComponent from 'react-moving-text';
+import HProjects from '../HProjects/HProjects';
 
 
 const Home = () => {
@@ -211,7 +211,7 @@ const Home = () => {
         <Counter />
         <Skills />
         <Resume />
-        <Project />
+        <HProjects />
         <Services />
         <Blogs />
         <ConnectUs />

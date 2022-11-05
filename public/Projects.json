@@ -1,0 +1,62 @@
+[
+    {
+        "_id": "sdf54512412",
+        "porject_img1": "https://i.ibb.co/SxVF2Z2/laptop-store-1.png",
+        "porject_img2": "https://i.ibb.co/DkdPbJX/laptop-store-2.png",
+        "porject_img3": "https://i.ibb.co/C242Pyb/laptop-store-3.png",
+        "porject_name": "Laptop Store",
+        "porject_title": "Laptop Manufacturing Website",
+        "porject_detail_1": "Laptop Store is a manufacture company warehouse.",
+        "porject_detail_2": "From here the products are delivered to the dealers.",
+        "porject_detail_3": "Many products are sold together from here.",
+        "porject_detail_4": "Retail products are not sold from here.",
+        "porject_live_link": "https://laptop-stores.web.app/",
+        "porject_client_side": "https://github.com/abdullahalmasudpersonal/Laptop-Store-Client",
+        "porject_server_side": "https://github.com/abdullahalmasudpersonal/laptop_store_server"
+    },
+    {
+        "_id": "sdf5451241dsf2",
+        "porject_img1": "https://i.ibb.co/SxVF2Z2/laptop-store-1.png",
+        "porject_img2": "https://i.ibb.co/DkdPbJX/laptop-store-2.png",
+        "porject_img3": "https://i.ibb.co/C242Pyb/laptop-store-3.png",
+        "porject_name": "Computer Accessories Warehouse",
+        "porject_title": "Computer Accessories Warehouse Website",
+        "porject_detail_1": "Laptop Store is a manufacture company warehouse.",
+        "porject_detail_2": "From here the products are delivered to the dealers.",
+        "porject_detail_3": "Many products are sold together from here.",
+        "porject_detail_4": "Retail products are not sold from here.",
+        "porject_live_link": "https://computer-accessories-warehouse.web.app/",
+        "porject_client_side": "https://github.com/abdullahalmasudpersonal/Computer-Accessories-Warehouse-Client",
+        "porject_server_side": "https://github.com/abdullahalmasudpersonal/Computer-Accessories-Warehouse-server"
+    },
+    {
+        "_id": "sdf5451241dsf2",
+        "porject_img1": "https://i.ibb.co/SxVF2Z2/laptop-store-1.png",
+        "porject_img2": "https://i.ibb.co/DkdPbJX/laptop-store-2.png",
+        "porject_img3": "https://i.ibb.co/C242Pyb/laptop-store-3.png",
+        "porject_name": "Netcom",
+        "porject_title": "Laptop Manufacturing Website",
+        "porject_detail_1": "Laptop Store is a manufacture company warehouse.",
+        "porject_detail_2": "From here the products are delivered to the dealers.",
+        "porject_detail_3": "Many products are sold together from here.",
+        "porject_detail_4": "Retail products are not sold from here.",
+        "porject_live_link": "https://netcom1.web.app/",
+        "porject_client_side": "https://github.com/abdullahalmasudpersonal/netcom-client",
+        "porject_server_side": "https://github.com/abdullahalmasudpersonal/netcom-server"
+    },
+    {
+        "_id": "sdf5451241dsf2",
+        "porject_img1": "https://i.ibb.co/SxVF2Z2/laptop-store-1.png",
+        "porject_img2": "https://i.ibb.co/DkdPbJX/laptop-store-2.png",
+        "porject_img3": "https://i.ibb.co/C242Pyb/laptop-store-3.png",
+        "porject_name": "Netcom",
+        "porject_title": "Laptop Manufacturing Website",
+        "porject_detail_1": "Laptop Store is a manufacture company warehouse.",
+        "porject_detail_2": "From here the products are delivered to the dealers.",
+        "porject_detail_3": "Many products are sold together from here.",
+        "porject_detail_4": "Retail products are not sold from here.",
+        "porject_live_link": "https://netcom1.web.app/",
+        "porject_client_side": "https://github.com/abdullahalmasudpersonal/netcom-client",
+        "porject_server_side": "https://github.com/abdullahalmasudpersonal/netcom-server"
+    }
+]
