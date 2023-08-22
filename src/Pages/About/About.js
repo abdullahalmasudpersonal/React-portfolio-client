@@ -51,7 +51,7 @@ const About = () => {
                                     <div className="col-sm-6">
                                         <div className="">
                                             <ul className='ps-0' style={{ listStyleType: 'none' }}>
-                                                <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &nbsp; <strong>Birthday:</strong> <span>31 July 2000</span></li>
+                                                <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &nbsp; <strong>Birthday:</strong> <span> July 2000</span></li>
                                                 <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &#160; <strong>Website:</strong> <span><Link className='text-decoration-none text-white'
                                                     href="https://abdullahalmasud.netlify.app/"
                                                     target="_blank">abdullahalmasud.netlify.app</Link></span></li>
@@ -63,7 +63,7 @@ const About = () => {
                                     <div className="col-sm-6">
                                         <div className="">
                                             <ul className='ps-0' style={{ listStyleType: 'none' }}>
-                                                <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &nbsp; <strong>Age:</strong> <span>23 Years</span></li>
+                                                <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &nbsp; <strong>Age:</strong> <span>24 Years</span></li>
                                                 <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &#160; <strong>Degree:</strong> <span>Honors (Runnig)</span></li>
                                                 <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &#160; <strong>Email:</strong> <span>abdullahalmasud772@gmail.com</span></li>
                                                 <li className='mt-3'> <FontAwesomeIcon icon={faChevronRight} /> &#160; <strong>Freelance:</strong> <span>Available</span></li>
