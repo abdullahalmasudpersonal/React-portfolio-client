@@ -1,6 +1,5 @@
 /* --------------All Projects-------------------- */
 .allproject-bg {
-    margin-top: 62px;
     background: rgb(0, 54, 126);
     color: white;
     min-height: 800px;
@@ -14,6 +13,9 @@
     transition: .5s;
     min-height: 470px;
     position: relative;
+}
+.project-dev-shadow:last-child {
+    margin-bottom: 120px;
 }
 
 .project-dev-shadow:hover {

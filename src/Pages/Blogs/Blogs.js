@@ -6,7 +6,7 @@ import './Blogs.css';
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/api/v1/blogs')
+        fetch('https://react-portfolio-servers.vercel.app/api/v1/blogs')
             .then(res => res.json())
             .then(data => setBlogs(data));
     }, []);

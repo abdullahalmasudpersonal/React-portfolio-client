@@ -1,5 +1,4 @@
 .allblogs-bg {
-    margin-top: 62px;
     background: rgb(0, 54, 126);
     color: white;
     min-height: 800px;
@@ -11,6 +10,7 @@
     border-radius: 5px;
     transition: .4s;
 }
+
 .bolg-dev-dev:hover{
     transform: translateY(20px);
 }
@@ -40,4 +40,7 @@
     border-radius: 50px;
     margin-bottom: 15px;
     border: 2px solid white;
+}
+.blogsFooterMargin:last-child{
+    margin-bottom: 120px;
 }

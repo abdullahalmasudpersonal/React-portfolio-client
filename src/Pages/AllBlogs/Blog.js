@@ -7,7 +7,7 @@ const Blog = ({ blog }) => {
     const { name, image, description, date } = blog;
 
     return (
-        <div class="col mb-3">
+        <div class="col blogsFooterMargin">
             <div class="bolg-dev-dev h-100">
                 <img src={image} class="card-img-top rounded-top w-100" alt="..." />
                 <div>

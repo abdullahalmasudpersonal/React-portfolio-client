@@ -5,7 +5,7 @@ const UseProjects = () =>{
     const [projects, setProjects] = useState([]);
 
     useEffect( () =>{
-        fetch('http://localhost:5000/api/v1/projects')
+        fetch('https://react-portfolio-servers.vercel.app/api/v1/projects')
         .then(res => res.json())
         .then(data => setProjects(data));
     },[]);
