@@ -82,7 +82,7 @@ const Services = () => {
                     <div class="col-md-3 mt-5">
                         <div class="py-4 package-bg">
                             <h5 className='text-center'>FULL STACK </h5>
-                            <h1 className='text-center'>$ 1000</h1>
+                            <h1 className='text-center'>$ 999</h1>
                             <h6 className='text-center'>EVERY PROJECT</h6>
                             <hr className='mx-4 ' style={{ color: 'white', border: '1px solid white' }} />
                             <div className='package-details'>

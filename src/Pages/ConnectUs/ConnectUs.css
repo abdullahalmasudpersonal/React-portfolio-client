@@ -13,3 +13,9 @@
 .contact-submit-btn:hover{
     background-color: rgb(17, 67, 177);
 }
+.addressIconAnimation>a{
+    transition: .4s;
+}
+.addressIconAnimation a:hover{
+    transform: translateY(-10px);
+}
