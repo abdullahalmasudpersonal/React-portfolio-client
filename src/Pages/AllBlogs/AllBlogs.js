@@ -12,7 +12,7 @@ const AllBlogs = () => {
     return (
         <div className='allblogs-bg py-5'>
             <div className='container'>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4" style={{paddingBottom:'100px'}}>
                     {
                         blogs.map(blog =><Blog key={blog._id} blog={blog} />)
                     }

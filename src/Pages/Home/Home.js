@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Home.css';
 import '../../App.css';
 import About from '../About/About';
@@ -9,15 +9,16 @@ import Blogs from '../Blogs/Blogs';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Counter from '../Counter/Counter';
 import Skills from '../Skills/Skills';
-import { useCallback } from "react";
 import resume from '../../Assets/img/ResumePDF/MASUD Full-stack Developer Resume.pdf';
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import ParticleAnimi from './config/ParticleAnimi';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import MovingComponent from 'react-moving-text';
 import HProjects from '../HProjects/HProjects';
+import 'animation'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 
 const Home = () => {
@@ -28,13 +29,18 @@ const Home = () => {
     deleteSpeed: 80,
   });
 
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <div>
+
       <div id='home' className='home-bg'>
-
-        <div className='container homeContainer' >
-
-          <MovingComponent
+        <div className='container' >
+          {/* container homeContainer */}
+          {/* data-aos="fade-down" */}
+          {/* <MovingComponent
             type="fadeInFromTop"
             duration="2000ms"
             delay="0s"
@@ -42,8 +48,13 @@ const Home = () => {
             timing="ease-in-out"
             iteration="1"
             fillMode="both">
-            <h3 className=' display-3 fw-bold home-my-name '>Abdullah al masud</h3>
-          </MovingComponent>
+            <h3 data-aos="fade-down" className=' display-3 fw-bold home-my-name '>Abdullah al masud</h3>
+          </MovingComponent>  */}
+          <div data-aos="fade-down" className='myNameDiv'>
+            <h3 className='display-3 home-my-name '>Abdullah Al Masud</h3>
+            <h3 data-aos="fade-down" className='display-3 home-my-name '>Abdullah Al Masud</h3>
+          </div>
+
 
           <MovingComponent
             type="fadeInFromLeft"
@@ -84,7 +95,9 @@ const Home = () => {
               <a className="btn btn-outline-light btn-floating m-1" href="https://dribbble.com/Abdullah540" role="button" target='_blank'><i className="fab fa-dribbble"></i></a>
             </section>
           </MovingComponent>
+
           {/*  <a download='Abdullah Resuem' href={resume}> <button className="glow-on-hover fw-bold mt-4" type="button"> RESUME <i className="fab fa-download"></i></button> </a> */}
+
           <MovingComponent
             type="fadeInFromBottom"
             duration="2000ms"
@@ -99,6 +112,7 @@ const Home = () => {
           </MovingComponent>
         </div>
       </div>
+
       <div className='home-down-bg'>
         <About />
         <Counter />

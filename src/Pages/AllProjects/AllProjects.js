@@ -9,7 +9,7 @@ const AllProjects = () => {
     return (
         <div className='allproject-bg py-5'>
             <div className='container'>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4" style={{paddingBottom:'100px'}}>
                      {
                         projects.map(project =><Project key={project._id} project={project} />)
                     } 

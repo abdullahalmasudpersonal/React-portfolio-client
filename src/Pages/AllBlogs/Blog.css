@@ -12,7 +12,7 @@
 }
 
 .bolg-dev-dev:hover{
-    transform: translateY(20px);
+    transform: translateY(-20px);
 }
 
 .bolg-read-more {
@@ -40,7 +40,4 @@
     border-radius: 50px;
     margin-bottom: 15px;
     border: 2px solid white;
-}
-.blogsFooterMargin:last-child{
-    margin-bottom: 120px;
 }

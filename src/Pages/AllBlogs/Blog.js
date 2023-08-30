@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Blog.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import Aos from 'aos';
 
 const Blog = ({ blog }) => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
     const { name, image, description, date } = blog;
 
     return (
-        <div class="col blogsFooterMargin">
+        <div data-aos="fade-up-right" class="col">
             <div class="bolg-dev-dev h-100">
                 <img src={image} class="card-img-top rounded-top w-100" alt="..." />
                 <div>

@@ -1,19 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './ConnectUs.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faEnvelope, faMobileAndroidAlt } from '@fortawesome/free-solid-svg-icons';
 import ContactForm from './ContactForm';
+import Aos from 'aos';
 library.add(fab)
 
 const ConnectUs = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+}, []);
+
   return (
     <div id='connect-us' className='connect-us pb-5'>
       <div className='container pt-3'>
-        <h3 className='text-center pt-5 about-about-headline mb-5 mt-5'>CONNECT</h3>
+        <h3 data-aos="flip-up" className='text-center pt-5 about-about-headline mb-5 mt-5'>CONNECT</h3>
 
-        <div class="row pt-5">
+        <div data-aos="fade-up"  class="row pt-5">
           <div class="col-md-4 mb-5">
             <div class="">
               <div class="">

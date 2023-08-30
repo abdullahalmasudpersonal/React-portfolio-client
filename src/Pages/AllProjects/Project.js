@@ -1,13 +1,17 @@
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Project.css';
+import Aos from 'aos';
 
 const Project = ({ project }) => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
     const { porject_img1, porject_img2, porject_img3, porject_name, porject_title, porject_detail_1, porject_detail_2, porject_detail_3, porject_detail_4, porject_live_link, porject_client_side, porject_server_side } = project;
 
     return (
-        <div class="col">
+        <div data-aos="zoom-in-right" class="col">
 
             <div class="project-dev-shadow">
 

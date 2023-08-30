@@ -1,15 +1,20 @@
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Services.css';
+import Aos from 'aos';
 
 const Services = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
+
     return (
         <div id='services' className='services-bg'>
-            <div className='container pt-3 services-dev-bg'>
-                <h3 className='text-center pt-5 mt-5 mb-5 numbers-numbers-headline'>PACKAGE</h3>
-                <div class="row">
-                    <div class="col-md-3 mt-5">
+            <div  className='container pt-3 services-dev-bg'>
+                <h3 data-aos="flip-up" className='text-center pt-5 mt-5 mb-5 numbers-numbers-headline'>PACKAGE</h3>
+                <div data-aos="fade-right" class="row">
+                    <div data-aos="fade-right" class="col-md-3 mt-5">
                         <div class="py-4 package-bg">
                             <h5 className='text-center'>FRUNT END </h5>
                             <h1 className='text-center'>$ 500</h1>
@@ -31,7 +36,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 mt-5">
+                    <div data-aos="fade-right" class="col-md-3 mt-5">
                         <div class="py-4 package-bg">
                             <h5 className='text-center'>BACK END </h5>
                             <h1 className='text-center'>$ 600</h1>
@@ -53,7 +58,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 mt-5">
+                    <div data-aos="fade-right" class="col-md-3 mt-5">
                         <div class="py-4 package-bg">
                             <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-light text-black py-2 px-3">
                                 Recomended
@@ -79,7 +84,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 mt-5">
+                    <div data-aos="fade-right" class="col-md-3 mt-5">
                         <div class="py-4 package-bg">
                             <h5 className='text-center'>FULL STACK </h5>
                             <h1 className='text-center'>$ 999</h1>
